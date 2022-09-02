@@ -8,40 +8,15 @@
     text-decoration: none;
     text-align: center;
     color: $color-white;
-    background-color: #d81b7a;
+    background-color: #1f1e1e;
     padding: 15px 25px;
     border-radius: 8px;
-    box-shadow: 3px 3px #30081c;
     transition: all .2s;
-    @media only screen and (min-width: 922px){
-        animation-name: beating;
-        animation-delay: 2s;
-        animation-duration: 2s;
-        animation-iteration-count: 1;
-        @keyframes beating {
-            25% {
-                scale: 1.2;
-                background-color: #971154;
-            }
-            50% { 
-                scale: 1;
-                background-color: #d81b7a;
-            } 
-            75% {
-                scale: 1.2;
-                background-color: #971154;
-            }
-            100% {
-                scale: 1;
-                background-color: #d81b7a;
-            }
-        }
-    }
     &:hover {
-        background-color: #971154;
+        background-color: #111111;
+        color: white;
     }
     &:active {
-        box-shadow: 0px 0px;
         scale: .9;
     }
     &:visited {
@@ -49,20 +24,20 @@
     }
 }
 /* Cards - Add To Chart Button*/
-.buy-btn{
-    padding: .5rem 1rem;
-    border-radius: 10px;
-    border: none;
-    text-decoration: none;
-    color: $color-white;
-    background-color: #3a3a3a;
-    transition: all 200ms;
-    &:hover{
-        background-color: #161616;
-        color: $color-white;
-    }
-    &:active {
-        transform: translate(4px,4px);
-    }
-}
+// .buy-btn{
+//     padding: .5rem 1rem;
+//     border-radius: 10px;
+//     border: none;
+//     text-decoration: none;
+//     color: $color-white;
+//     background-color: #3a3a3a;
+//     transition: all 200ms;
+//     &:hover{
+//         background-color: #161616;
+//         color: $color-white;
+//     }
+//     &:active {
+//         transform: translate(4px,4px);
+//     }
+// }
 
